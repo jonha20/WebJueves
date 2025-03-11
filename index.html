@@ -1,0 +1,275 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Restaurante Pepe</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+<main>
+    <header>
+            <div class="social-contact">
+              <a  href="https://www.instagram.com/lacocinadenadiarivas/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.facebook.com/people/La-Cocina-De-Nadia-Rivas/pfbid0rbQVUM9mJjNeRxxv7mymndaaWgx78ny3F8xwyccVpWAEWPtjNCAHYt9vScMMw77cl/" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
+              <a href="tel:919477218" class="phone-icon"><i class="fas fa-phone-alt"></i> 695 95 52 38</a>
+              <p class="hours"><i class="fas fa-clock"></i> Lunes a Viernes: 07:50-23:00 y Sábado 09:30-24:00</p>
+              <div class="title">
+                <p>Restaurante Pepe</p>
+              </div>
+            </div>  
+            <!--<nav>
+              <input type="checkbox" id="check">
+              <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+              </label>
+              <div class="nav-mobile">
+                <div class="nav-mobile w3-animate-right">
+                   Menu items 
+                  <a href="#">Inicio</a>
+                  <a href="#raciones">Raciones</a>
+                  <a href="#platos">Platos</a>
+                  <a href="#bebidas">Bebidas</a>
+                  <a href="#visitanos">Visítanos</a>
+                </div>
+              </div>
+            </nav>  -->
+            
+            <nav>
+              <input type="checkbox" id="menu">
+              <label for="menu"> ☰ </label>
+              <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#raciones">Raciones</a></li>
+                <li><a href="#platos">Platos</a></li>
+                <li><a href="#bebidas">Bebidas</a></li>
+                <li><a href="#visitanos">Visítanos</a></li>
+              </ul>
+            </nav>     
+    </header>
+    <body>
+      <br id="raciones">
+      <section>
+      <h2>Nuestras <span>Raciones</span></h2>
+      <div  class="Raciones-content">
+        
+        <div class="racion">
+            <a>Parrillada de verduras (2 personas)</a><span>15€</span>
+        </div>
+        <div class="racion">
+            <a>Lacón a la gallega</a><span>12€</span>
+        </div>
+        <div class="racion">
+            <a>Morcilla a la plancha</a><span>12€</span>
+        </div>
+        <div class="racion">
+            <a>Oreja a la plancha</a><span>12€</span>
+        </div>
+        <div class="racion">
+            <a>Alitas fritas</a><span>12€</span>
+        </div>
+        <div class="racion">
+            <a>Tiras de pollo a la romana con alioli</a><span>13€</span>
+        </div>
+        <div class="racion">
+            <a>Mollejas de cordero</a><span>22€</span>
+        </div>
+        <div class="racion">
+            <a>Chorizo a la sidra</a><span>12€</span>
+        </div>
+        <div class="racion">
+            <a>Tortilla de patatas</a><span>13€</span>
+        </div>
+        <div class="racion">
+            <a>Croquetas de jamón (8 piezas)</a><span>12€</span>
+        </div>
+        <div class="racion">
+            <a>Ensaladilla rusa</a><span>10€</span>
+        </div>
+        <div class="racion">
+            <a>Sepia a la plancha</a><span>13€</span>
+        </div>
+        <div class="racion">
+            <a>Chipirones a la plancha con ensalada de tomate</a><span>18€</span>
+        </div>
+        <div class="racion">
+            <a>Chopitos</a><span>8€</span>
+        </div>
+        <div class="racion">
+            <a>Calamares a la andaluza</a><span>13€</span>
+        </div>
+        <div class="racion">
+            <a>Boquerones en vinagre</a><span>12€</span>
+        </div>
+        <div class="racion">
+            <a>Gambón a la plancha</a><span>20€</span>
+        </div>
+        <div class="racion">
+            <a>Pulpo a la gallega o braseado</a><span>26€</span>
+        </div>
+        <div class="racion">
+            <a>Setas rebozadas con ali-oli o plancha con jamón</a><span>12€</span>
+        </div>
+        <div class="racion">
+            <a>Jamón serrano</a><span>13€</span>
+        </div>
+        <div class="racion">
+            <a>Jamón ibérico</a><span>22€</span>
+        </div>
+        <div class="racion">
+            <a>Queso manchego</a><span>13€</span>
+        </div>
+        <div class="racion">
+            <a>Patatas (mixtas, bravas, ali-oli)</a><span>10€</span>
+        </div>
+        <div class="racion">
+            <a>Huevos rotos con jamón</a><span>13€</span>
+        </div>
+        <div class="racion">
+            <a>Huevos rotos con morcilla</a><span>13€</span>
+        </div>
+    </div>
+  </section>
+  <br id="platos">
+  <section>
+    <script src="js/platos.js"></script>
+      
+    <div class="menu-section">
+      <h2 class="menu-title">Nuestros <span>Platos</span></h2> 
+      <div class="menu-buttons">
+        <button class="menu-btn active" data-category="all">Todo</button>
+        <button class="menu-btn" data-category="hamburguesas">Hamburguesas</button>
+        <button class="menu-btn" data-category="tostas">Tostas</button>
+        <button class="menu-btn" data-category="bocadillos">Bocadillos</button>
+        <button class="menu-btn" data-category="sandwiches">Sandwiches</button>
+        <button class="menu-btn" data-category="platos-combinados">Platos Combinados</button>
+        <button class="menu-btn" data-category="ensaladas">Ensaladas</button>
+        <button class="menu-btn" data-category="carnes">Carnes</button>
+        <button class="menu-btn" data-category="pescados">Pescados</button>    </div>
+
+      <!-- Categorías -->
+      <div class="menu-items">
+        <div class="Hamburguesas">
+          <h3 class="menu-item" data-category="hamburguesas">Hamburguesas</h3>
+          <div class="menu-item" data-category="hamburguesas">
+            <a>Hamburguesa de la casa(lechuga, tomate, queso y beicon), suplemento huevo 1 euro aparte</a><span class="price">9€</span>
+          </div>
+        </div>
+        <div class="tostas">
+          <h3 class="menu-item" data-category="tostas">Tostas</h3>
+          <div class="menu-item" data-category="tostas"><a>Jamón con tomate</a><span class="price">7€</span></div>
+          <div class="menu-item" data-category="tostas"><a>Jamón con tomate y aguacamole</a><span class="price">8€</span></div>
+          <div class="menu-item" data-category="tostas"><a>Salmón con philadelphia y aguacamole</a><span class="price">9€</span></div>
+          <div class="menu-item" data-category="tostas"><a>Bonito y tomate</a><span class="price">7€</span></div>
+          <div class="menu-item" data-category="tostas"><a>Solomillo con cebolla caramelizada y queso de cabra</a><span class="price">9€</span></div>
+          <div class="menu-item" data-category="tostas"><a>Quesadillas de Jamón y queso</a><span class="price">10€</span></div>
+        </div>
+        <div class="bocadillos">
+          <h3 class="menu-item" data-category="bocadillos">Bocadillos</h3>
+          <div class="menu-item" data-category="bocadillos"><a>Tortilla de patata</a><span class="price">5.50€</span></div>
+          <div class="menu-item" data-category="bocadillos"><a>Tortilla francesa</a><span class="price">5€</span></div>
+          <div class="menu-item" data-category="bocadillos"><a>Bacon</a><span class="price">5.50€</span></div>
+          <div class="menu-item" data-category="bocadillos"><a>Panceta</a><span class="price">5.50€</span></div>
+          <div class="menu-item" data-category="bocadillos"><a>Lomo</a><span class="price">5.50€</span></div>
+          <div class="menu-item" data-category="bocadillos"><a>Jamón serrano</a><span class="price">5.50€</span></div>
+          <div class="menu-item" data-category="bocadillos"><a>Jamón ibérico con tomate</a><span class="price">8€</span></div>
+          <div class="menu-item" data-category="bocadillos"><a>Jamón york y queso</a><span class="price">5.50€</span></div>
+          <div class="menu-item" data-category="bocadillos"><a>Calamares</a><span class="price">6€</span></div>
+          <div class="menu-item" data-category="bocadillos"><a>Chorizo frito</a><span class="price">5.50€</span></div>
+          <div class="menu-item" data-category="bocadillos"><a>Lacón</a><span class="price">5.50€</span></div>
+          <div class="menu-item" data-category="bocadillos"><a>Oreja</a><span class="price">5.50€</span></div>
+          <div class="menu-item" data-category="bocadillos"><a>Queso manchego</a><span class="price">5.50€</span></div>
+          <div class="menu-item" data-category="bocadillos"><a>Morcilla</a><span class="price">5.50€</span></div>
+          <div class="menu-item" data-category="bocadillos"><a>Atún con pimientos</a><span class="price">5.50€</span></div>
+          <div class="menu-item" data-category="bocadillos"><a>Pollo</a><span class="price">7€</span></div>
+          <div class="menu-item" data-category="bocadillos"><a>Pepito de ternera</a><span class="price">7€</span></div>
+          <div class="menu-item" data-category="bocadillos"><a>Boquerones en vinagre</a><span class="price">6.50€</span></div>
+          <div class="menu-item" data-category="bocadillos"><a>Embutido</a><span class="price">5.50€</span></div>
+          <div class="menu-item" data-category="bocadillos"><a>Embutido ibérico</a><span class="price">7€</span></div>
+          <div class="menu-item" data-category="bocadillos"><a>Pincho de tortilla</a><span class="price">3€</span></div>
+          <div class="menu-item" data-category="bocadillos"><a>Suplemento</a><span class="price">0.50€</span></div>
+        </div>
+        <div class="sandwiches">
+          <h3 class="menu-item" data-category="sandwiches">Sandwiches</h3>
+          <div class="menu-item" data-category="sandwiches"><a>Mixto</a><span class="price">3.50€</span></div>
+          <div class="menu-item" data-category="sandwiches"><a>Mixto Vegetal</a><span class="price">6.50€</span></div>
+          <div class="menu-item" data-category="sandwiches"><a>Mixto con Huevo</a><span class="price">5€</span></div>
+        </div>
+        <div class="platos-combinados">
+          <h3 class="menu-item" data-category="platos-combinados">Platos Combinados</h3>
+          <div class="menu-item" data-category="platos-combinados"><a>Filete de ternera con huevo, patatas y ensalada</a><span class="price">10€</span></div>
+          <div class="menu-item" data-category="platos-combinados"><a>Lomo con huevo, patatas y ensalada</a><span class="price">9€</span></div>
+          <div class="menu-item" data-category="platos-combinados"><a>Bacon con huevo, patatas y ensalada</a><span class="price">9€</span></div>
+          <div class="menu-item" data-category="platos-combinados"><a>Panceta con huevo, patatas y ensalada</a><span class="price">9€</span></div>
+          <div class="menu-item" data-category="platos-combinados"><a>Chorizo con huevo, patatas y ensalada</a><span class="price">9€</span></div>
+          <div class="menu-item" data-category="platos-combinados"><a>Huevos con patatas</a><span class="price">7€</span></div>
+        </div>
+        <div class="ensaladas">
+          <h3 class="menu-item" data-category="ensaladas">Ensaladas</h3>
+          <div class="menu-item" data-category="ensaladas"><a>Mixta para 2 personas</a><span class="price">12€</span></div>
+          <div class="menu-item" data-category="ensaladas"><a>Mixta para 1 persona</a><span class="price">7€</span></div>
+          <div class="menu-item" data-category="ensaladas"><a>Jamón con tomate y queso cabra</a><span class="price">14€</span></div>
+          <div class="menu-item" data-category="ensaladas"><a>Ensalada de ventresca, pimientos y tomate</a><span class="price">14€</span></div>
+        </div>
+        <div class="carnes">
+          <h3 class="menu-item" data-category="carnes">Carnes</h3>
+          <div class="menu-item" data-category="carnes"><a>Chuletón de buey</a><span class="price">27€</span></div>
+          <div class="menu-item" data-category="carnes"><a>Entrecot de cebón (400 grs.)</a><span class="price">22€</span></div>
+          <div class="menu-item" data-category="carnes"><a>Chuletas de cordero lechal</a><span class="price">20€</span></div>
+          <div class="menu-item" data-category="carnes"><a>Cachopo de pollo</a><span class="price">20€</span></div>
+          <div class="menu-item" data-category="carnes"><a>Cachopo de ternera</a><span class="price">22€</span></div>
+          <div class="menu-item" data-category="carnes"><a>Escalope de pollo</a><span class="price">10€</span></div>
+          <div class="menu-item" data-category="carnes"><a>Escalope de ternera</a><span class="price">10€</span></div>
+        </div>
+        <div class="pescados">
+          <h3 class="menu-item" data-category="pescados">Pescados</h3>
+          <div class="menu-item" data-category="pescados"><a>Lubina a la plancha con ensalada</a><span class="price">19€</span></div>
+        </div>
+    </div>
+  </section>
+  <br id="bebidas">
+  <section >
+    <h2>Nuestras <span>Bebidas</span></h2>
+    <div class="bebidas-items">
+      <div class="vinos">
+        <h3 class="bebidas-item" data-category="vinos">Vinos</h3>
+        <div class="bebidas-item" data-category="Vinos"><a>Cune</a><span class="price">3.30€ - 19€</span></div>
+        <div class="bebidas-item" data-category="Vinos"><a>Rioja de la casa</a><span class="price">3€ - 15€</span></div>
+        <div class="bebidas-item" data-category="Vinos"><a>Ribera de la casa</a><span class="price">3€ - 15€</span></div>
+        <div class="bebidas-item" data-category="Vinos"><a>Rueda</a><span class="price">3€ - 15€</span></div>
+        <div class="bebidas-item" data-category="Vinos"><a>Alma</a><span class="price">3€ - 15€</span></div>
+      </div>
+      <div class="cervezas">
+        <h3 class="bebidas-item" data-category="cervezas">Cervezas</h3>
+        <div class="bebidas-item" data-category="Vinos"><a>Tercio Mahou</a><span class="price">3€</span></div>
+        <div class="bebidas-item" data-category="Vinos"><a>Alhambra 1925</a><span class="price">3.30€</span></div>
+        <div class="bebidas-item" data-category="Vinos"><a>Estrella Galicia</a><span class="price">3.30€</span></div>
+        <div class="bebidas-item" data-category="Vinos"><a>Copa</a><span class="price">3€</span></div>
+        <div class="bebidas-item" data-category="Vinos"><a>Jarra 1/2 Litro</a><span class="price">3.70€</span></div>
+      </div>
+      <div class="refrescos">
+        <h3 class="bebidas-item" data-category="refrescos">Refrescos</h3>
+        <div class="bebidas-item" data-category="Vinos"><a>Tinto de verano</a><span class="price">3.70€</span></div>
+        <div class="bebidas-item" data-category="Vinos"><a>Refrescos</a><span class="price">3€</span></div>
+        <div class="bebidas-item" data-category="Vinos"><a>Cafe</a><span class="price">2€</span></div>
+      </div>
+  </section>
+  <section id="visitanos">
+    <h2>Visitanos</h2>
+      <div class="map-container">
+        <!-- Pega aquí el iframe obtenido de Google Maps -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3040.817947994649!2d-3.5247813878261347!3d40.34638437133201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd423bc4a1b2fea9%3A0x5cd33d8ddbd835a1!2sLa%20Cocina%20de%20Nadia!5e0!3m2!1ses!2ses!4v1732711135038!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    
+  </section>
+  </body>
+  <footer class="site-footer">
+    <div class="footer-content">
+      <p>© La Cocina de Nadia. Todos los derechos reservados</p>
+      <p>Designed by <a href="tel:+34123456789" class="designer">JMC</a></p>
+    </div>
+  </footer>
+   
+</main>
+    
+</html>
