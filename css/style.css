@@ -8,26 +8,23 @@
   --color-fondo: black;
 }
 
-//PRINCIPAL
-
 header {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 100vh; 
   background-size: cover;
   background-position: center;
   transition: background-image 1s ease-in-out;
-  position: relative;
-  text-align: center;
-  color: var(--color-primario);
-  font-size: 2rem;
+  color: white;
   z-index: 1000;
 }
+
 nav {
   padding: 1.5rem 2rem;
   background-color: var(--color-fondo);
   color: var(--color-secundario);
 }
+
 ul {
   display: none;
 }
@@ -46,19 +43,17 @@ label {
   border: 1px solid var(--color-fondo);
   border-radius: 5px;
   width: 5%;
-  height: 3.2%;
+  height: 3.5%;
   line-height: 30px;
   font-weight: bold;
   text-align: center;
   user-select: none;
 }
 
-/* Estilo del boton cuando se pasa el mouse por encima*/
 label:hover {
   background: grey;
 }
 
-/* Estilo del boton cuando el menú está expandido*/
 input:checked ~ label {
   background: lightgrey;
 }
@@ -78,17 +73,19 @@ li {
   border-bottom: 1px solid grey;
 }
 
-/*Estilo cuando el mouse pasa encima de cada link del menu*/
 li:hover {
   filter: brightness(110%);
 }
-//CLASES
+
+.title {
+  margin-left: auto; 
+  margin-right: 5%;
+}
 
 .social-contact {
   display: flex;
   align-items: center;
   font-size: 14px;
-  margin-left: 1%;
   padding: 3px 0;
   background-color: black;
 }
@@ -119,5 +116,3 @@ li:hover {
   color: var(--color-secundario);
   transition: 0.5s;
 }
-
-//MEDIA
