@@ -34,7 +34,7 @@ ul a {
   color: var(--color-fondo);
 }
 a:hover {
-  color: var(--color-secundario); /* Color al pasar el ratón */
+  color: var(--color-secundario); 
   transition: 0.5s;
 }
 input:checked ~ ul {
@@ -193,7 +193,8 @@ a:hover {
     justify-content: space-between;
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 60%;
+    margin: auto;
     
   }
   li {
@@ -201,6 +202,15 @@ a:hover {
     padding: 10px;
     list-style: none;
     border-bottom: none;
+    border-radius: 30px;
+    background-color: var(--color-fondo);
+  }
+  li a{
+    color: var(--color-primario);
+  }
+  ul:hover {
+    color: var(--color-secundario);
+    transition: 0.5s;
   }
   li:hover {
     filter: brightness(110%);
