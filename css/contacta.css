@@ -45,8 +45,11 @@ input[type="submit"]:hover {
     background: var(--color-primario);
     color: var(--color-secundario);
     transition: 0.5s;
+<<<<<<< HEAD
 }
 .form-check{
     display:flex;
     justify-content: space-around;
+=======
+>>>>>>> 4b12f105dbe7ddda1412c999bf5650c585b3a606
 }

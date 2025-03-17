@@ -18,7 +18,12 @@ header {
   background-size: cover;
   background-position: center;
   transition: background-image 1s ease-in-out;
+<<<<<<< HEAD
   color: var(--color-primario);
+=======
+  color: white;
+  z-index: 1000;
+>>>>>>> 4b12f105dbe7ddda1412c999bf5650c585b3a606
 }
 nav {
   padding: 1.5rem 2rem;
@@ -177,6 +182,16 @@ a:hover {
   min-height: 300px;
 }
 @media screen and (min-width: 768px) {
+<<<<<<< HEAD
+=======
+  input {
+    display: none;
+  }
+  label {
+    display: none;
+    
+  }
+>>>>>>> 4b12f105dbe7ddda1412c999bf5650c585b3a606
   ul {
     display: flex;
     flex-direction: row;
@@ -206,6 +221,7 @@ a:hover {
     filter: brightness(110%);
   }
 }
+<<<<<<< HEAD
 form {
     background: var(--color-primario);
     padding: 20px;
@@ -241,3 +257,5 @@ input[type="submit"]:hover {
     color: var(--color-secundario);
     transition: 0.5s;
 }
+=======
+>>>>>>> 4b12f105dbe7ddda1412c999bf5650c585b3a606
