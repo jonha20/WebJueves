@@ -138,17 +138,7 @@ a:hover {
   transition: 0.5s;
 }
 .Raciones-content,
-.Hamburguesas,
-.tostas,
-.bocadillos,
-.sandwiches,
-.platos-combinados,
-.ensaladas,
-.pescados,
-.carnes,
-.vinos,
-.cervezas,
-.refrescos {
+.carta{
   display: block;
   flex-wrap: wrap;
   align-items: center;
