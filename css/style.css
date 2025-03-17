@@ -18,12 +18,8 @@ header {
   background-size: cover;
   background-position: center;
   transition: background-image 1s ease-in-out;
-<<<<<<< HEAD
   color: var(--color-primario);
-=======
-  color: white;
   z-index: 1000;
->>>>>>> 4b12f105dbe7ddda1412c999bf5650c585b3a606
 }
 nav {
   padding: 1.5rem 2rem;
@@ -126,10 +122,12 @@ a:hover {
 .social-contact .social-icon {
   font-size: 20px;
   margin-right: 10px;
+  z-index: 1000;
 }
 .social-contact .phone-icon,
 .social-contact .hours {
   font-size: 14px;
+  z-index: 1000;
 }
 .hours {
   margin-left: 10px;
@@ -182,8 +180,6 @@ a:hover {
   min-height: 300px;
 }
 @media screen and (min-width: 768px) {
-<<<<<<< HEAD
-=======
   input {
     display: none;
   }
@@ -191,7 +187,6 @@ a:hover {
     display: none;
     
   }
->>>>>>> 4b12f105dbe7ddda1412c999bf5650c585b3a606
   ul {
     display: flex;
     flex-direction: row;
@@ -221,41 +216,3 @@ a:hover {
     filter: brightness(110%);
   }
 }
-<<<<<<< HEAD
-form {
-    background: var(--color-primario);
-    padding: 20px;
-    border-radius: 5px;
-    width: 300px;
-}
-label {
-    display: block;
-    margin-bottom: 5px;
-}
-input[type="text"],
-input[type="email"],
-textarea {
-    width: 95%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid var(--color-secundario);
-    border-radius: 4px;
-}
-input[type="checkbox"] {
-    margin-right: 5px;
-}
-input[type="submit"] {
-    background: var(--color-secundario);
-    color: var(--color-primario);
-    border: none;
-    padding: 10px;
-    border-radius: 4px;
-    cursor: pointer;
-}
-input[type="submit"]:hover {
-    background: var(--color-primario);
-    color: var(--color-secundario);
-    transition: 0.5s;
-}
-=======
->>>>>>> 4b12f105dbe7ddda1412c999bf5650c585b3a606
