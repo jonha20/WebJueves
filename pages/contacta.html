@@ -16,6 +16,9 @@
         id="name"
         name="name"
         placeholder="Ingresa tu nombre"
+        required
+        maxlength="30"
+        minlength="3"
       />
       <br />
       <label for="name">Apellidos:</label>
@@ -24,6 +27,9 @@
         id="apellidos"
         name="apellidos"
         placeholder="Ingresa tus apellidos"
+        required
+        maxlength="30"
+        minlength="3"
       />
       <br />
       <label for="email">Email:</label>
@@ -32,6 +38,7 @@
         id="email"
         name="email"
         placeholder="Ingresa tu email"
+        required
       />
       <br />
       <label for="message">Mensaje:</label>
@@ -54,7 +61,7 @@
         
         <div>
           <label for="Si"
-            ><input type="radio" id="Si" name="info" value="Si" />Sí</label>
+            ><input type="radio" id="Si" name="info" value="Si" checked/>Sí</label>
         </div>
         <div>
           <label for="No"
@@ -63,7 +70,7 @@
       </div>
       <br />
       <label for="terms">
-        <input type="checkbox" id="terms" /> Acepto los términos y condiciones
+        <input type="checkbox" id="terms" checked/> Acepto los términos y condiciones
       </label>
       <br />
 
