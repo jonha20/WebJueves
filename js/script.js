@@ -7,32 +7,37 @@ document.querySelector("form").addEventListener("submit", (event) => {
   const terms = event.target.terms.checked;
   const estacion = event.target.estacion.value;
   const info = event.target.info.value;
-  document.getElementById("contact").innerHTML = ""
+  const mensaje = event.target.message.value;
+  document.getElementById("contact").innerHTML = "";
   let error = "";
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  const indexRegex = /^[A-Za-z]{3,30}$/;
 
-  if (name.length > 3 && name.length < 15) {
+  if (indexRegex.test(name)) {
   } else {
-    alert((error += "Nombre inválido\n"));
+    alert((error += "Nombre inválido, unicamente letras\n"));
   }
-  if (apellidos.length > 3 && apellidos.length < 30) {
+  if (indexRegex.test(apellidos)) {
   } else {
-    alert((error += "Apellido inválido\n"));
+    alert((error += "Apellido inválido, unicamente letras\n"));
   }
   if (emailRegex.test(email)) {
   } else {
     alert((error += "Formato email incorrecto\n"));
   }
+  if (mensaje.length > 500) {
+    alert((error = "Maximo 500 caracteres"));
+  }
   if (estacion == "") {
     error += "Selecciona alguna estación del año\n";
   }
   if (info == "") {
-    alert((error = "Selecciona publicidad"));
+    alert((error += "Selecciona publicidad"));
   }
   if (!terms) {
     alert((error = "Acepta terminos y condiciones"));
   }
-  
+
   // Comprobar si hay errores
   if (error.length != 0) {
     alert(error); //imprime mensaje final de error
